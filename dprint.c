@@ -12,7 +12,7 @@ int main(int argc, char** argv) {
     if (argc > 1) {
         dprint(argv[1]);
     } else {
-        dprint("Error\n");
+        dprint("Enter Arguments.\n");
     }
     return 0;
 }
